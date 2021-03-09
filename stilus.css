@@ -1,0 +1,114 @@
+.cover{
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/page-header-bg.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  color: hsla(0,0%,100%,.7);
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  display: table;
+   width: 100%;
+}
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 .625rem;
+
+}
+.byline h2 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: .1rem;
+  margin-bottom: .5rem;
+  text-transform: uppercase;
+}
+
+.byline h3 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.headline {
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+@media screen and (min-width: 1224px) {
+
+  .headline {
+    font-size: 6rem;
+  }
+
+}
+
+.tagline {
+  font-size: 1.45rem;
+  line-height: 1.8rem;
+}
+
+/* ==== ARTICLE STYLES ==== */
+
+section {
+  padding: 0 .625rem;
+}
+
+@media screen and (min-width: 1224px) {
+
+  section {
+    width: 50%;
+    max-width: 600px;
+    margin: 2rem auto;
+  }
+
+}
+
+section h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 2rem 0;
+}
+
+section p {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 1rem 0;
+}
+
+/* ==== FOOOTER==== */
+footer {
+  background: rgba(36, 1, 1, 0.9);
+  height: 7rem;
+  text-align: left;
+  display: table;
+  width: 100vw;
+  font-family: 'Arial', sans-serif;
+  font-size: .875rem;
+}
+
+footer small {
+  color: #ccc;
+  letter-spacing: .025rem;
+  margin-bottom: 1.5rem;
+  display: block;  
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #CCFFFF;
+  margin: 0 .5rem;
+  display: inline-block;
+}
+
+.footer-nav a:hover {
+  color: #FFCCCC;
+  transition: color .40s ease-in-out;
+}
+strong {
+  font-weight: 700;
+}
+
+footer img {
+  float: right;    
+  width: 8rem;   
+}
